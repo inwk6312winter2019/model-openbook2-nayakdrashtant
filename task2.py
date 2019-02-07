@@ -35,6 +35,11 @@ def subtaskone(clas,accessible):
                 print("   " + p["STOPNUMBER"] + "  " +  p["LOCATION"] + "  " + p["FCODE"] )      
             
 
-x = input("enter class:")
-y = input("enter accessible:") 
-subtaskone(x,y)
+#x = input("enter class:")
+#y = input("enter accessible:") 
+print("ARTERIAL AND Accessible")
+subtaskone("ARTERIAL","Accessible")
+print("\nLOCAL STREET AND Non-Standard")
+subtaskone("LOCAL STREET","Non-Standard")
+print("\nMINOR COLLECTOR AND Inaccessible")
+subtaskone("MINOR COLLECTOR","Inaccessible")
